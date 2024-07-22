@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ProductCard from '../components/ProductCard';
 import Banner from '../components/Banner';
-import Categories from '../components/Categories';
 import './HomePage.css';
 
 const HomePage = () => {
@@ -17,7 +16,6 @@ const HomePage = () => {
   return (
     <div className="homepage">
       <Banner />
-      <Categories />
       <div className="product-list">
         {products.map(product => (
           <ProductCard key={product._id} product={product} />

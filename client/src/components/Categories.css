@@ -1,19 +1,25 @@
-.categories {
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem;
-  }
-  
-  .category {
-    text-align: center;
-  }
-  
-  .category img {
-    width: 100px;
-    height: 100px;
-  }
-  
-  .category h3 {
-    margin-top: 0.5rem;
-  }
-  
+.categories ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.categories li {
+  position: relative;
+}
+
+.categories li img {
+  display: none;
+  width: 100px;
+  height: auto;
+}
+
+.categories li a:hover + img,
+.categories li img:hover {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}

@@ -1,21 +1,27 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Categories.css';
 
 const Categories = () => (
-  <div className="categories">
-    <div className="category">
-      <img src="/images/category1.jpg" alt="Electrónica" />
-      <h3>Electrónica</h3>
-    </div>
-    <div className="category">
-      <img src="/images/category2.jpg" alt="Hogar" />
-      <h3>Hogar</h3>
-    </div>
-    <div className="category">
-      <img src="/images/category3.jpg" alt="Accesorios" />
-      <h3>Accesorios</h3>
-    </div>
-  </div>
+  <nav className="categories">
+    <ul>
+      <li>
+        <Link to="/categoria/electronica">Electrónica</Link>
+        <img src="/images/electronica.jpg" alt="Electrónica" />
+      </li>
+      <li>
+        <Link to="/categoria/hogar">Hogar</Link>
+        <img src="/images/hogar.jpg" alt="Hogar" />
+      </li>
+      <li>
+        <Link to="/categoria/accesorios">Accesorios</Link>
+        <img src="/images/accesorios.jpg" alt="Accesorios" />
+      </li>
+      <li>
+        <Link to="/contacto">Contáctanos</Link>
+      </li>
+    </ul>
+  </nav>
 );
 
 export default Categories;

@@ -10,7 +10,7 @@ const Cart = () => {
   }, []);
 
   const handleRemove = (id) => {
-    const updatedItems = cartItems.filter(item => item.id !== id);
+    const updatedItems = cartItems.filter(item => item._id !== id);
     setCartItems(updatedItems);
     localStorage.setItem('cart', JSON.stringify(updatedItems));
   };
@@ -22,12 +22,12 @@ const Cart = () => {
         <p>No hay productos en el carrito.</p>
       ) : (
         cartItems.map(item => (
-          <div key={item.id} className="cart-item">
+          <div key={item._id} className="cart-item">
             <img src={`/images/${item.image}`} alt={item.name} />
             <div>
               <h3>{item.name}</h3>
               <p>${item.price}</p>
-              <button onClick={() => handleRemove(item.id)}>Eliminar</button>
+              <button onClick={() => handleRemove(item._id)}>Eliminar</button>
             </div>
           </div>
         ))
