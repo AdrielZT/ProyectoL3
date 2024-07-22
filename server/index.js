@@ -20,7 +20,7 @@ const productRoutes = require('./routes/productRoutes');
 app.use('/api', productRoutes);
 
 // Conexión a la base de datos
-mongoose.connect('mongodb+srv://adrieltejerina15:42813089@cluster0.onjmz9r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://adrieltejerina15:42813089@cluster0.onjmz9r.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.log(err));
 

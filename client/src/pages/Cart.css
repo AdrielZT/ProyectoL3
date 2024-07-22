@@ -1,0 +1,32 @@
+.cart {
+    padding: 2rem;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .cart-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 1rem;
+  }
+  
+  .cart-item h3 {
+    margin: 0;
+  }
+  
+  .cart-item p {
+    margin: 0.5rem 0;
+  }
+  
+  .cart-item button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
