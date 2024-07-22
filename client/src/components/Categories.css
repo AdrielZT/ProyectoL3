@@ -1,0 +1,19 @@
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+  
+  .category {
+    text-align: center;
+  }
+  
+  .category img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .category h3 {
+    margin-top: 0.5rem;
+  }
+  

@@ -1,0 +1,14 @@
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .filters label {
+    margin-right: 1rem;
+  }
+  
+  .filters input {
+    margin-left: 0.5rem;
+  }
+  
