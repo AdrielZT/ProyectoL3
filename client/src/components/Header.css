@@ -1,27 +1,21 @@
 header {
   background-color: #fff;
   padding: 0;
-  color: #ffffff;
-  border-bottom: 1px solid #000000;
+  color: #000;
+  border-bottom: 1px solid #ccc;
 }
 
 .top-bar {
   display: flex;
-  background-color: #fff;
   justify-content: space-between;
   align-items: center;
-  padding: 10px ;
+  padding: 10px;
 }
 
 .logo {
   flex: 1;
-}
-
-.logo a {
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: bold;
-  color: #000000;
-  text-decoration: none;
 }
 
 .search-bar {
@@ -73,17 +67,21 @@ header {
 .categories ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
 }
 
 .categories li {
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .categories li a {
   text-decoration: none;
   color: #000;
   font-weight: bold;
+}
+
+.categories .contacto {
+  margin-left: auto;
 }

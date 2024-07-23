@@ -1,0 +1,30 @@
+.productos-destacados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .producto {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .producto img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .producto h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .producto p {
+    margin: 5px 0;
+  }
+  

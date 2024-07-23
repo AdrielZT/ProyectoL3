@@ -10,7 +10,7 @@ const Header = () => (
       </div>
       <div className="search-bar">
         <input type="text" placeholder="Buscar productos..." />
-        <button type="submit">x</button>
+        <button type="submit"><i className="fas fa-search"></i></button>
       </div>
       <div className="user-options">
         <Link to="/carrito">Carrito</Link>
@@ -22,7 +22,7 @@ const Header = () => (
         <li><Link to="/categoria/accesorios">Accesorios</Link></li>
         <li><Link to="/categoria/electronica">Electrónica</Link></li>
         <li><Link to="/categoria/hogar">Hogar</Link></li>
-        <li><Link to="/contacto">Contacto</Link></li>
+        <li className="contacto"><Link to="/contacto">Contacto</Link></li>
       </ul>
     </nav>
   </header>

@@ -16,6 +16,7 @@ const HomePage = () => {
   return (
     <div className="homepage">
       <Banner />
+      <h2 className="productos-destacados-title">Productos Destacados</h2>
       <div className="product-list">
         {products.map(product => (
           <ProductCard key={product._id} product={product} />

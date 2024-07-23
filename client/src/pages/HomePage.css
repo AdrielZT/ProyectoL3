@@ -1,9 +1,16 @@
 .homepage {
-  padding: 2rem;
+  text-align: center;
+}
+
+.productos-destacados-title {
+  margin: 20px 0;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .product-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 20px;
 }
